@@ -15,6 +15,7 @@
 5. Start the Squiggle server by running ```node server.js``` or ```NODE_ENV=production node server.js```
 
 Now you should be able to access the Squiggle Dashboard at the url and port number you have specified.
+By default the server runs on port 3000. Try [here](http://localhost:3000).
 
 <!---
 ## Usage
