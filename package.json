@@ -1,0 +1,25 @@
+{
+  "name": "analytics",
+  "version": "0.0.1",
+  "description": "A web analytics application bulit on node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "analytics"
+  ],
+  "author": "Luke Slattery <lukeslattery@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-cssbeautify": "^0.1.3",
+    "gulp-sass": "^2.0.4",
+    "gulp-shell": "^0.4.3"
+  },
+  "dependencies": {
+    "mime": "^1.3.4",
+    "mysql": "^2.9.0"
+  }
+}
