@@ -13,7 +13,6 @@ DROP TABLE IF EXISTS squiggle_data;
 CREATE TABLE squiggle_data(
 	pageID int,
 	date DATE,
-	visitorLocation VARCHAR(100),
-	visitorReturn BOOLEAN,
-	visitorBrowser VARCHAR(100)
+	visitorIP VARCHAR(100),
+	visitorLocation VARCHAR(100)
 );
