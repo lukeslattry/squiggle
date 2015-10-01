@@ -102,10 +102,11 @@ var server = http.createServer(function(request, response) {
 		}
 
 	}
-	else if (request.url.slice(0,4) == '/log') {
-		traffic.record();
+	else if (request.url.slice(0,5) == '/log/') {
+		var pageID = request.url.slice(5);
+		traffic.record(pageID, request, response);
 		response.writeHead(200, {'Content-Type' : 'text/javascript'});
-		response.end("console.log('Your visit to page has been anonymously recorded.')");
+		response.end("Your visit to page has been anonymously recorded.");
 
 	}
 
